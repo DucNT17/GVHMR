@@ -38,19 +38,18 @@ joblib
 # 3D-Vision
 # --------------------
 # PyTorch3D nightly hỗ trợ Python 3.11 + cu121
-pytorch3d @ git+https://github.com/facebookresearch/pytorch3d@main
+pytorch3d @ https://github.com/OutofAi/PyTorch3D-wheels/releases/download/0.7.8/pytorch3d-0.7.8.postAda260124-cp311-cp311-linux_x86_64.whl
 
 trimesh
 
 # Chumpy không support Python 3.11 -> phải dùng bản fork
-chumpy @ git+https://github.com/mattloper/chumpy.git
+chumpy
 
 smplx
 wis3d
 
 # PyCOLMAP không support Python 3.11 -> dùng bản git mới nhất
-pycolmap @ git+https://github.com/mihaidusmanu/pycolmap.git
-
+pycolmap
 # --------------------
 # 2D Pose
 # --------------------
